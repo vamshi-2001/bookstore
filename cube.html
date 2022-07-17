@@ -1,0 +1,21 @@
+<html> 
+<title>CUBE OF A NUMBER</title>
+<body>
+<form name="cubeNum">
+Number1<input type="text" name="num"><br><br>
+
+Result<input type="text" name="resVal"><br><br>
+<input type="button" value="calculate" onClick="f1()">
+</form>
+<script type="text/javascript">
+function f1()
+{
+var a,res;
+a=Number(document.cubeNum.num.value);
+
+res=a**3;
+document.cubeNum.resVal.value=res;
+}
+</script>
+</body>
+</html>
